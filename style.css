@@ -195,6 +195,17 @@ audio{
   width: 50%;
   font-size: 22px;
 }
+.qrcode{
+  margin-top: 200px;
+  font-size: 26px;
+  font-family: arial;
+}
+.qrceode img{
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+}
 footer{
   height: 250px;
   background-color: black;
