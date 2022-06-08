@@ -1,0 +1,217 @@
+html{
+  scroll-behavior: smooth;
+  color: white;
+}
+body{
+height: 3000px;
+background-color: black;
+margin: 0;
+text-align: center;
+display: block;
+}
+header{
+  height: auto;
+  background-color: black;
+}
+h2{
+  color: white;
+  font-family: arial;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.remonter{
+  position: fixed;
+  top: 90%;
+  left: 90%;
+  height: 100px;
+  z-index: 3;
+  animation: haut 2s infinite;
+}
+nav{
+  position: fixed;
+  display: block;
+  margin-left: 20px;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-60%);
+  padding-top: 20px;
+}
+ul{
+ width: 600px;
+ align-items: center;
+ padding: 0;
+ display: grid;
+ margin: auto;
+}
+li{
+  list-style: none;
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color:white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 22px;
+  transition-duration: 0.2s;
+}
+a:hover{
+  box-shadow: rgba(255, 255, 255, 0.07) 0px 1px 2px, rgba(255, 255, 255, 0.07) 0px 2px 4px, rgba(255, 255, 255, 0.07) 0px 4px 8px, rgba(255, 255, 255, 0.07) 0px 8px 16px, rgba(255, 255, 255, 0.07) 0px 16px 32px, rgba(255, 255, 255, 0.07) 0px 32px 64px;
+  font-size: 16px;
+}
+@keyframes haut{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(50px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.cadrelogo
+{
+display: block;
+height: auto;
+padding-top: 10px;
+}
+.logo
+{
+height: 120px;
+margin-top: 20px;
+}
+.txtlogo{
+     font-family: arial;
+     font-size: 26px;
+     margin-top: 20px;
+     color: white;
+}
+.pourvous{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+span::before{
+    font-family: arial;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 2px;
+    align-self: center;
+	font-size: 22px;
+    color: white;
+    padding: 10px;
+	content: "« Ici je partage mon évolution musicale »";
+	margin-left: 0;
+	animation: aaa 8s;
+}
+@keyframes aaa {
+	0%{
+		content: "Artiste";
+	}
+	20%{
+		content: "Fingerstyle"
+	}
+	40%{
+		content: "Interprète"
+	}
+	60%{
+		content: "Compositeur"
+    }
+    70%{
+		content: "Tapping"
+    }
+    75%{
+		content: "Folk"
+    }
+    77.5%{
+		content: "Rythmique"
+    }
+    79%{
+		content: "Arpèges"
+    }
+    80%{
+		content: "Artiste";
+    }
+    81%{
+		content: "Fingerstyle"
+    }
+    82%{
+		content: "Interprète"
+    }
+    83%{
+		content: "Compositeur"
+    }
+    84%{
+		content: "Tapping"
+    }
+    85%{
+		content: "Folk"
+    }
+    86%{
+		content: "Arpèges"
+    }
+    87%{
+		content: "« Ici je partage mon évolution musicale »"
+    }
+}
+.verticale{
+  position: fixed;
+  left: 2px;
+  height: 320px;
+  width: 1px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bouttonnav{
+  position: absolute;
+  visibility: hidden;
+  margin-top: 50px;
+}
+.barre{
+  width: 60px;
+  height: 6px;
+  background-color: white;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+.croix #barre1{
+  transform: rotate(45deg) translateY(10px) translateX(10px); 
+  transition: 0.2s;
+}
+.croix #barre2{
+  visibility: hidden;
+}
+.croix #barre3{
+  transform: rotate(-45deg) translateY(-10px) translateX(10px);
+  transition: 0.2s;
+}
+.son{
+  margin-top: 50px;
+  font-size: 26px;
+}
+audio{
+  width: 50%;
+  font-size: 22px;
+}
+footer{
+  height: 250px;
+  background-color: black;
+  display: block;
+  text-align: center;
+  margin-top: -50px;
+}
+footer h2{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+ padding-top: 10px;
+}
+footer p{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+}
