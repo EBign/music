@@ -91,6 +91,7 @@ margin-top: 20px;
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    font-size: 14px;
 }
 span::before{
     font-family: arial;
@@ -98,7 +99,7 @@ span::before{
     font-style: italic;
     letter-spacing: 2px;
     align-self: center;
-	font-size: 22px;
+	  font-size: 14px;
     color: white;
     padding: 10px;
 	content: "« Ici je partage mon évolution musicale »";
@@ -191,9 +192,18 @@ span::before{
   margin-top: 50px;
   font-size: 26px;
 }
+.point{
+  margin-top: 0;
+}
+.titreson{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: arial;
+}
 audio{
-  width: 50%;
-  font-size: 22px;
+  width: 25%;
+  transform: scale(1.5);
+  margin-top: 40px;
 }
 .qrcode{
   margin-top: 200px;
